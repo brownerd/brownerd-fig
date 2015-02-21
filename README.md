@@ -12,7 +12,7 @@ I've contacted Process Type Foundry to see if I can submit it for open source us
 
 ## FIGLET header explained
 
-**flf2a$ 10 8 12 0 38 0** The first five characters "flf2a" must be at the beginning of every figlet file. This header and it's settings give the configurations needed to display your characters correctly.
+`flf2a$ 10 8 12 0 38 0` The first five characters "flf2a" must be at the beginning of every figlet file. This header and it's settings give the configurations needed to display your characters correctly.
 ---
 Here is a [FIGlet](http://www.jave.de/figlet/figfont.html) diagram.
 
