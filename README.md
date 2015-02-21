@@ -16,6 +16,7 @@ Most of the standard FIGlet fonts were inspired by signatures on various UseNet 
 ---
 [FIGlet](http://www.jave.de/figlet/figfont.html)
 
+```
         flf2a$ 6 5 20 15 3 0 143 229    NOTE: The first five characters in
           |  | | | |  |  | |  |   |     the entire file must be "flf2a".
          /  /  | | |  |  | |  |   \
@@ -24,6 +25,7 @@ Signature  /  /  | |  |  | |   \   Codetag_Count
        Height  /   |  |   \  Print_Direction
        Baseline   /    \   Comment_Lines
         Max_Length      Old_Layout
+```
 
 * The two layout parameters are closely related and fairly complex.*
 * See Interpretation of Layout Parameters.*
