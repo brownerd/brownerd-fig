@@ -42,3 +42,15 @@ Signature  /  /  | |  |  | |   \   Codetag_Count
 - 38           - number of comment lines
 - 0            - Print direction default left to rigth
 ---
+
+
+## Resources
+- [FIGfont](http://www.jave.de/figlet/figfont.html)
+- [patorjk/figlet.js](https://github.com/patorjk/figlet.js/blob/master/doc/figfont.txt)
+- [FIGlet and AOL Macro Fonts](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
+
+
+## Send
+If you design a FIGfont, please send an e-mail announcement to
+<figletfonts@onelist.com>, the FIGlet fonts mailing list, and email a copy
+to ianchai@usa.net for him to put it at the ftp site.
