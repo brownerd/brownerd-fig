@@ -1,24 +1,24 @@
 # BROWNERD FIG
 
-I have owned the [FIG](http://processtypefoundry.com/fonts/fig/) typeface from Process Type Foundry for years (since 2007).
+My favorite figlet is actually a typeface for print made by [Process Type Foundry](http://processtypefoundry.com/) called [FIG Serif](http://processtypefoundry.com/fonts/fig/). However, it is not usable outside of print. So, I spent the day making this into a usable figlet for dev use.
+
+I've contacted Process Type Foundry to see if I can submit it for open source use. I hope they say yes. Fingers crossed.
 
 
 ## ORIGIN of FIGLET
 
-"FIGlet" stands for "Frank, Ian and Glenn's LETters". Inspired  by Frank's .sig, Glenn wrote (most of) it, and Ian helped.
-
-Most of the standard FIGlet fonts were inspired by signatures on various UseNet articles. Since typically hundreds of people use the same style of letters in their signatures, it was often not deemed necessary to give credit to any one font designer.
+"FIGlet" stands for "Frank, Ian and Glenn's LETters". You can read more about it's origins here [patorjk/figlet.js](https://github.com/patorjk/figlet.js/blob/master/doc/figfont.txt)
 
 
-## FIGLETs explained
+## FIGLET header explained
 
-**flf2a$ 10 8 12 0 38 0**
+**flf2a$ 10 8 12 0 38 0** The first five characters "flf2a" must be at the beginning of every figlet file. This header and it's settings give the configurations needed to display your characters correctly.
 ---
-[FIGlet](http://www.jave.de/figlet/figfont.html)
+Here is a [FIGlet](http://www.jave.de/figlet/figfont.html) diagram.
 
 ```
-        flf2a$ 6 5 20 15 3 0 143 229    NOTE: The first five characters in
-          |  | | | |  |  | |  |   |     the entire file must be "flf2a".
+        flf2a$ 6 5 20 15 3 0 143 229
+          |  | | | |  |  | |  |   |
          /  /  | | |  |  | |  |   \
 Signature  /  /  | |  |  | |   \   Codetag_Count
   Hardblank  /  /  |  |  |  \   Full_Layout
@@ -27,30 +27,19 @@ Signature  /  /  | |  |  | |   \   Codetag_Count
         Max_Length      Old_Layout
 ```
 
-* The two layout parameters are closely related and fairly complex.*
-* See Interpretation of Layout Parameters.*
-
-
-### Explanation of first line:
-- flf2         -"magic number" for file identification
-- a            - should always be 'a', for now
-- $            - the "hardblank" prints as a blank, but can't be smushed
-- 10           - height of a character
-- 8            - (baseline) height of a character, not including descenders
-- 9 + 3 = 12   - (M) max line length (excluding comment lines) + a few spaces
-- 0            - Old Layout default settings
-- 38           - number of comment lines
-- 0            - Print direction default left to rigth
 ---
 
-
 ## Resources
+If you ever want to make your own figlet these resources will help a bunch. Also, review the code of other figlets.
+
 - [FIGfont](http://www.jave.de/figlet/figfont.html)
 - [patorjk/figlet.js](https://github.com/patorjk/figlet.js/blob/master/doc/figfont.txt)
 - [FIGlet and AOL Macro Fonts](http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 
 
-## Send
+## Todo
+If Process Type Foundry approves this figlet, then I will try to get it submitted for open use.
+
 If you design a FIGfont, please send an e-mail announcement to
 <figletfonts@onelist.com>, the FIGlet fonts mailing list, and email a copy
 to ianchai@usa.net for him to put it at the ftp site.
