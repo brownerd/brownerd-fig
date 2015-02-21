@@ -4,6 +4,8 @@ My favorite figlet is actually a typeface for print made by [Process Type Foundr
 
 I've contacted Process Type Foundry to see if I can submit it for open source use. I hope they say yes. Fingers crossed.
 
+![Brownerd FIG screenshot](brownerd-FIG.png)
+
 
 ## ORIGIN of FIGLET
 
