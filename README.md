@@ -43,3 +43,7 @@ If Process Type Foundry approves this figlet, then I will try to get it submitte
 If you design a FIGfont, please send an e-mail announcement to
 <figletfonts@onelist.com>, the FIGlet fonts mailing list, and email a copy
 to ianchai@usa.net for him to put it at the ftp site.
+
+### Make Atom and Sublime packages to use
+- [Your first package](https://atom.io/docs/latest/your-first-package)
+- [ASCII-Decorator](https://github.com/viisual/ASCII-Decorator)
