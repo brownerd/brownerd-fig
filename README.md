@@ -27,8 +27,6 @@ Signature  /  /  | |  |  | |   \   Codetag_Count
         Max_Length      Old_Layout
 ```
 
----
-
 ## Resources
 If you ever want to make your own figlet these resources will help a bunch. Also, review the code of other figlets.
 
